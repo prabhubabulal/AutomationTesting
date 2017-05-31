@@ -1,0 +1,10 @@
+<suite name="Suite" parallel="tests" thread-count="2">
+  <test name="Test">
+     <parameter name="test-name" value="test-method One" />
+    <classes>
+      <class name="testAutomation.testing.ParallelSuiteTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
